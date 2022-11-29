@@ -35,3 +35,15 @@ Screens: Each screen has a java class which operates its functions and methods a
 
 <h2>How To Compile and Run The Code</h2>
 At the moment, you can clone the repository onto your device. Once you have access to the directory, load it on an IDE platform of your choice and run the "Login.java" file from the "BookManagementProject" folder
+
+<h2>New Features</h2>
+I have added 2 new features using 2 different APIs. 
+<ul>
+  <li>Zenquotes</li>
+  <li>OpenTDB</li>
+</ul> 
+
+1. Zenquotes
+Zenquotes help me to fetch random quote with its author. Everytime, user log in to the system, new quote show up at the top of the GUI under their username. 
+2. OpenTDB
+This API help me to retrieve questions and answers from the database. With the following information, I view it as JSON and parse it. Then, used it with OOP standards by creating a class which helps me to specify the question, correct answer, incorrect answers, etc. 
