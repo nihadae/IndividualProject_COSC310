@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="allBack" stylesheets="@dashboardAdmin.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bookmanagementproject.QuizController">
+   <children>
+      <Label fx:id="question" alignment="CENTER" layoutX="262.0" layoutY="59.0" text="Question" textAlignment="CENTER" textFill="WHITE" wrapText="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="Cochin" size="20.0" />
+         </font>
+      </Label>
+      <VBox alignment="CENTER" layoutX="157.0" layoutY="130.0" prefHeight="200.0" prefWidth="286.0" spacing="20.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Button fx:id="ans1" mnemonicParsing="false" onAction="#loadQuestion" prefHeight="35.0" prefWidth="280.0" styleClass="buttons" stylesheets="@dashboardAdmin.css" text="Button" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cochin" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="ans2" mnemonicParsing="false" onAction="#loadQuestion" prefHeight="35.0" prefWidth="280.0" styleClass="buttons" stylesheets="@dashboardAdmin.css" text="Button" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cochin" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="ans3" mnemonicParsing="false" onAction="#loadQuestion" prefHeight="35.0" prefWidth="280.0" styleClass="buttons" stylesheets="@dashboardAdmin.css" text="Button" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cochin" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="ans4" mnemonicParsing="false" onAction="#loadQuestion" prefHeight="35.0" prefWidth="280.0" styleClass="buttons" stylesheets="@dashboardAdmin.css" text="Button" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cochin" size="16.0" />
+               </font>
+            </Button>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </VBox>
+      <Label fx:id="diff" alignment="CENTER" layoutX="252.0" layoutY="351.0" text="Difficulty" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="Cochin" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
