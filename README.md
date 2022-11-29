@@ -43,7 +43,7 @@ I have added 2 new features using 2 different APIs.
   <li>OpenTDB</li>
 </ul> 
 
-1. Zenquotes
+1. Zenquotes <br>
 Zenquotes help me to fetch random quote with its author. Everytime, user log in to the system, new quote show up at the top of the GUI under their username. 
-2. OpenTDB
+2. OpenTDB <br>
 This API help me to retrieve questions and answers from the database. With the following information, I view it as JSON and parse it. Then, used it with OOP standards by creating a class which helps me to specify the question, correct answer, incorrect answers, etc. 
